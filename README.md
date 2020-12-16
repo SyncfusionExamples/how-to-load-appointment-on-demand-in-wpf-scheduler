@@ -3,7 +3,7 @@
 This examples demonstrates to load appointment on demand in wpf scheduler on two ways.
 * LoadOnDemand_Event
 * LoadOnDemand_Command
-## LoadOnDemand_Event
+## LoadOnDemandEvent
 Define a [Behavior](https://docs.microsoft.com/en-us/previous-versions/visualstudio/design-tools/expression-studio-4/ff726531(v=expression.40)) class for sheduler that implements `QueryAppointments` event for on-demand loading.
 
    public class LoadOnDemandBehavior : Behavior<SfScheduler>
@@ -133,7 +133,7 @@ And called the LoadOnDemandBehavior class to scheduler control.
     </Grid>
 </Window>
 
-## LoadOnDemand_Command
+## LoadOnDemandCommand
 Define a ViewModel class that implements [Command](https://docs.microsoft.com/en-us/dotnet/api/system.windows.input.icommand?view=net-5.0) and handle it by CanExecute and Execute methods to check and execute on-demand loading.
 
     public class LoadOnDemandViewModel : NotificationObject
