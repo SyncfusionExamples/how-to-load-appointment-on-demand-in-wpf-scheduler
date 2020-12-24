@@ -7,7 +7,7 @@ using System.Windows.Interactivity;
 using System.Windows.Media;
 using System.Windows.Threading;
 
-namespace LoadOnDemand_Event
+namespace SchedulerLoadOnDemand
 {
     public class LoadOnDemandBehavior : Behavior<SfScheduler>
     {
