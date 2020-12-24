@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
 
-namespace LoadOnDemand_Command
+namespace SchedulerLoadOnDemand
 {
     public class SchedulerModel : NotificationObject
     {
