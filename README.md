@@ -1,8 +1,8 @@
 # How to load appointments on demand in wpf scheduler
 ## About the sample
 This examples demonstrates to load appointment on demand in wpf scheduler on two ways.
-* LoadOnDemand_Event
-* LoadOnDemand_Command
+* LoadOnDemandEvent
+* LoadOnDemandCommand
 ## LoadOnDemandEvent
 Define a [Behavior](https://docs.microsoft.com/en-us/previous-versions/visualstudio/design-tools/expression-studio-4/ff726531(v=expression.40)) class for sheduler that implements `QueryAppointments` event for on-demand loading.
 
