@@ -270,13 +270,13 @@ Define a ViewModel class that implements [Command](https://docs.microsoft.com/en
 
 And set the ICommand to LoadOnDemandCommand property of scheduler.
 
-<Window x:Class="LoadOnDemand_Command.MainWindow"
+<Window x:Class="SchedulerLoadOnDemand.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:system="clr-namespace:System;assembly=mscorlib" 
-        xmlns:local="clr-namespace:LoadOnDemand_Command"
+        xmlns:local="clr-namespace:SchedulerLoadOnDemand"
         xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
         mc:Ignorable="d" 
         WindowStartupLocation="CenterScreen"

@@ -10,7 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
 
-namespace LoadOnDemand_Command
+namespace SchedulerLoadOnDemand
 {
     /// <summary>
     /// Load on demand view model.
