@@ -1,9 +1,9 @@
 # How to load appointments on demand in wpf scheduler
 ## About the sample
 This examples demonstrates to load appointment on demand in wpf scheduler on two ways.
-* LoadOnDemandEvent
+* LoadOnDemandEvent(QueryAppointments)
 * LoadOnDemandCommand
-## LoadOnDemandEvent
+## LoadOnDemandEvent(QueryAppointments)
 Define a [Behavior](https://docs.microsoft.com/en-us/previous-versions/visualstudio/design-tools/expression-studio-4/ff726531(v=expression.40)) class for sheduler that implements `QueryAppointments` event for on-demand loading.
 
    public class LoadOnDemandBehavior : Behavior<SfScheduler>
@@ -84,14 +84,14 @@ Define a [Behavior](https://docs.microsoft.com/en-us/previous-versions/visualstu
 
 And called the LoadOnDemandBehavior class to scheduler control.
 
-<Window x:Class="LoadOnDemand_Event.MainWindow"
+<Window x:Class="SchedulerLoadOnDemand.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:system="clr-namespace:System;assembly=mscorlib" 
         xmlns:interactivity="http://schemas.microsoft.com/expression/2010/interactivity"
-        xmlns:local="clr-namespace:LoadOnDemand_Event"
+        xmlns:local="clr-namespace:SchedulerLoadOnDemand"
         xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
         mc:Ignorable="d" 
         WindowStartupLocation="CenterScreen"
